@@ -1,0 +1,23 @@
+.button{
+    width: 500px;
+    margin-bottom: 30px;
+    opacity: 0.4;
+}
+
+.button-bottom{
+    width: 500px;
+    opacity: 0.4;
+}
+
+.button-main{
+    width: calc(500px + 60px);
+    background-color: rgb(245, 193, 203);
+    border: dashed rgb(251, 174, 189);
+    padding: 30px;
+    margin-left: calc((75% - 560px) / 2 );
+}
+
+.placeholder-1{
+    width: auto;
+    height: calc((722px - 68.96px - 267.6px) / 2 );
+}

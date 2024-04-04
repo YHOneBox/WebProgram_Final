@@ -1,0 +1,43 @@
+.button-right{
+    width: 25%;
+    float: right;
+    text-align: right;
+    height: 68.96px;
+}
+
+.title{
+    width: 75%; 
+    float: left;
+
+}
+
+.title-word{
+    float: left;
+    width: 70%;
+    height: 68.96px;
+    margin: 0px;
+    line-height: 60px
+}
+
+.canvas-middle{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.logo-image{
+    width: 9.64071%;
+    /* height: 68.96px; */
+    float: left;
+}
+
+.main{
+    height: 68.96px;
+    background-color: pink;
+    border-bottom: solid palevioletred 1px;
+}
+
+.button-placeholder{
+    width: 25%;
+    height: calc((68.96px - 37.76px) / 2);
+}

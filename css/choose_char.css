@@ -1,0 +1,23 @@
+.picture-text{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "consolas", "Times New Roman", Times, Sans-serif;
+    font-weight: bold;
+}
+
+.button-submit{
+    margin: 30px auto;
+}
+
+#send_data{
+    margin: 0px auto;
+    width: 200px;
+    padding: 15px 0px;
+    border: solid 0px;
+}
+
+.placeholder-1{
+    width: auto;
+    height: 100px;
+}

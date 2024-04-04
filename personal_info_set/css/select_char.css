@@ -1,0 +1,50 @@
+.image{
+    width: 248px;
+    height: 248px;
+}
+
+.imageFull{
+    width: 30%;
+    z-index: 1000;
+}
+
+.imageAlwaysFront{
+    width: 25%;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.inBox{
+    width: 500px;
+    word-wrap:break-word;
+}
+
+input.image{
+    font-size: 0px;
+}
+
+#backgroundEmilia{
+    background-image: url("../image/emilia_head.png");
+}
+
+#backgroundRem{
+    background-image: url("../image/rem_head.png");
+}
+
+#backgroundRam{
+    background-image: url("../image/ram_head.png");
+}
+
+#backgroundEmiliaFull{
+    background-image: url("../image/emilia_full.png");
+}
+
+#backgroundRemFull{
+    background-image: url("../image/rem_full.png");
+}
+
+#backgroundRamFull{
+    background-image: url("../image/ram_full.png");
+}

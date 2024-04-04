@@ -1,0 +1,41 @@
+.message{
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    z-index: 1001;
+    transform: translate(-50%);
+    opacity: 0.85;
+    display: none;
+}
+
+.messageData{
+    width: 25%;
+    text-align: center;
+    word-break: break-word; 
+    position: absolute;
+    left: 50%;
+    top: 68%;
+    z-index: 1001;
+    transform: translate(-50%);
+    display: none;
+}
+
+.dialogFrame{
+    background-image: url("../image/dialog_frame.png");
+    text-align: center;
+    vertical-align: middle;
+    width: 269px;
+    height: 201px;
+    z-index: 1000;
+    position: fixed;
+    right: 22%;
+    bottom: 10%;
+    display: none;
+}
+
+.center{
+    padding: 0px 10px; 
+    word-break: break-word; 
+    margin-top: 100px;
+}

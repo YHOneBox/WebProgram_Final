@@ -1,0 +1,84 @@
+.image{
+    width: 248px;
+    height: 248px;
+    border: solid 1px gray;
+    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.5);
+    filter: grayscale(100%);
+}
+
+.image:hover{
+    filter: grayscale(0%);
+    border: solid 1px rgba(254, 171, 187, 1);
+    box-shadow: 5px 8px 16px 0 rgba(254, 171, 187, 0.5);
+    cursor: pointer;
+}
+
+.image:active{
+    filter: grayscale(0%);
+    border: solid 1px rgba(254, 171, 187, 1);
+    box-shadow: 5px 8px 16px 0 rgba(252, 126, 156, 0.5);
+    cursor: pointer;
+}
+
+.imageActive{
+    width: 248px;
+    height: 248px;
+    font-size: 0px;
+    filter: grayscale(0%);
+    border: solid 3px rgba(254, 171, 187, 1);
+    box-shadow: 5px 8px 16px 0 rgba(252, 126, 156, 0.5);
+}
+
+.imageFull{
+    width: 30%;
+    z-index: 1000;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.imageAlwaysFront{
+    width: 25%;
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    filter: drop-shadow(10px 10px 5px rgb(254, 171, 187));
+}
+
+input.image{
+    font-size: 0px;
+}
+
+#backgroundEmilia{
+    background-image: url("../image/emilia_head.png");
+}
+
+#backgroundRem{
+    background-image: url("../image/rem_head.png");
+}
+
+#backgroundRam{
+    background-image: url("../image/ram_head.png");
+}
+
+#backgroundEmiliaFull{
+    background-image: url("../image/emilia_full.png");
+}
+
+#backgroundRemFull{
+    background-image: url("../image/rem_full.png");
+}
+
+#backgroundRamFull{
+    background-image: url("../image/ram_full.png");
+}
+
+.click{
+    width: 10%;
+    z-index: 1000;
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+    transform: translate(-50%);
+}
